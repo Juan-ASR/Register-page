@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 470;
+    color: black;
+}
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(0, 0, 255, 0.678);
+    transition: 0.6s;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color:aliceblue;
+    box-shadow: 0 0 15px 0;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.terminos{
+    display: flex;
+    gap: 10px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#fin{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+#btn{
+    padding: 10px 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.678);
+    color: white;
+}
+
+#btn:hover{
+    transition: 0.8s;
+    background-color: white;
+    color: rgba(0, 0, 255, 0.678);
+    box-shadow: 0 0 10px 0;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    padding: 8px 40px;
+    background-color: rgba(128, 128, 128, 0.323);
+}
+
+input:hover{
+    transition: 0.8s;
+    box-shadow: 0 0 20px 0;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dark{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.oscuro{
+    background-color:  rgb(11, 11, 82);
+    transition: 0.6s;
+}
+
+.oscuro label{
+    color: white;
+    transition: 0.6s;
+}
+
+.oscuro form{
+    background-color: black;
+    transition: 0.6s;
+}
+
+.oscuro input{
+    background-color: black;
+    transition: 0.6s;
+}
+
+.oscuro h1{
+    color: white;
+    transition: 0.6s;
+}
+
+.oscuro #btn{
+    padding: 10px 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(11, 11, 82);
+    color: white;
+    transition: 0.6s;
+}
+
+.oscuro #btn:hover{
+    transition: 0.8s;
+    background-color: white;
+    color: rgb(11, 11, 82);
+    box-shadow: 0 0 10px 0;
+    transition: 0.6s;
+}
+
+.oscuro input{
+    background-color: rgb(66, 66, 66);
+    transition: 0.6s;
+}
+
+
+.oscuro p{
+    color: white;
+    transition: 0.6s;
+}
